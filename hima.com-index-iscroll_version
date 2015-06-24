@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>嗨码科技</title>
+    <link rel="stylesheet" href="{%base_url()%}static/css/index.css" />
+    <style>
+        .page {
+            display: none;
+        }
+        .page-index {
+            display: block; width: 100%; height: 100%;
+        }
+    </style>
+</head>
+<body onload="loaded()">
+  <div class="page-bg"></div>
+  <div id="myScroll" class="page-container">
+    <div class="wrapper">
+        <div class="page page-index">
+            <div class="page index-cover">
+                <div class="hima-index-header">
+                    <div class="hima-logo"></div>
+                </div>
+                <div class="hima-index-main">
+                    <p>找到真实消费者</p>
+                    <p>轻松建立会员体系</p>
+                    <br><br>
+                    <div class="hima-index-btn">
+                        <a href="">立即体验</a>
+                    </div>
+                </div>
+                <div class="down-pointer">
+                    <div class="down-arrow"></div>
+                </div>
+            </div></div>
+        <div class="page page-2">
+            <div class="up-pointer">
+                <div class ="up-arrow"></div>
+            </div>
+            <div class="down-pointer">
+                <div class="down-arrow"></div>
+            </div>
+            <p>
+                嗨码如何帮助企业 <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
+                找到真实消费者轻松建立会员体系
+            </p>
+            <ul class="page-2-round-list">
+                <li>
+                    <div class="page-2-round"></div>
+                    <div class="page-2-round invert">
+                        整合线上、线下多渠道消费者，让企业突破渠道壁垒，找到真实消费者，基于存量用户开展营销活动
+                    </div>
+                    <p>定位真实消费者</p>
+                </li>
+                <li>
+                    <div class="page-2-round"></div>
+                    <div class="page-2-round invert">
+                        通过专属积分商城、精准广告投放、引导关注公众号等功能，让企业在商品售后与消费者发生更有效的互动
+                    </div>
+                    <p>消费者互动</p>
+                </li>
+                <li>
+                    <div class="page-2-round"></div>
+                    <div class="page-2-round invert">
+                        实时统计会员消费行为，通过可视化数据随时洞察消费者，及时调整营销和产品策略，帮助品牌逐渐实现C2B的战略运营
+                    </div>
+                    <p>统计分析</p>
+                </li>
+                <li>
+                    <div class="page-2-round"></div>
+                    <div class="page-2-round invert">
+                        帮助企业实现商品的“互联网+”，多媒体内容延伸、质保防伪等功能轻松实现，提供更好的用户体验
+                    </div>
+                    <p>商品增值功能</p>
+                </li>
+            </ul>
+            <div class="page-line"></div>
+        </div>
+        <div class="page page-3">
+            <div class="up-pointer">
+                <div class ="up-arrow"></div>
+            </div>
+            <div class="down-pointer">
+                <div class="down-arrow"></div>
+            </div>
+            <p>嗨码如何实现？</p>
+            <ul class="page-3-round-list">
+                <li>
+                    <div class="page-3-round"></div>
+                </li>
+                <li>
+                    <div class="page-3-round"></div>
+                </li>
+                <li>
+                    <div class="page-3-round"></div>
+                </li>
+                <li>
+                    <div class="page-3-round"></div>
+                </li>
+            </ul>
+            <div class="page-line white"></div>
+        </div>
+        <div class="page page-4">
+            <div class="up-pointer">
+                <div class ="up-arrow"></div>
+            </div>
+            <p>合作伙伴</p>
+            <div class="partner-window">
+                <div class="partner-container">
+                    <ul class="partner-list">
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner_img1.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner_img2.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner_img3.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner_img4.jpg" alt=""/>
+                        </li>
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner_img5.jpg" alt=""/>
+                        </li>
+                        <li>
+                            <img src="{%base_url()%}static/image/index/partner_img6.jpg" alt=""/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <input type="text" name="name" placeholder="您的姓名"/>
+            <input type="text" name="mobile" placeholder="联系电话"/>
+            <input type="text" name="company" placeholder="公司名称"/>
+            <input type="text" name="email" placeholder="电子邮箱"/>
+            <!--input type="textarea" name="message" placehoder="请输入留言..."-->
+            <div class="hima-index-btn" id="submitBtn">
+                联系我们
+            </div>
+            <div class="error" style="text-align:center;line-height:25px;font-size:16px"></div>
+            <div class="page-4-bottom">
+                <div class="page-4-bottom-left">
+                    <img src="{%base_url()%}static/image/index/qrcode.jpg" alt=""/>
+                    <p>北京市朝阳区惠新西街惠新苑7号楼707</p>
+                    <p>010-84468534</p>
+                    <p>himakeji@hima.me</p>
+                </div>
+                <div class="page-4-middle">Top</div>
+                <div class="page-4-bottom-right">
+                    Copyright©2012 All right Reserved | 嗨码科技 | 京ICP证060955号
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<ul class="page-list-icon">
+    <li class="active" name="page1"></li>
+    <li name="page2"></li>
+    <li name="page3"></li>
+    <li name="page4"></li>
+</ul>
+
+<script type="text/javascript" src="{%base_url()%}static/js/zepto.js"></script>
+<script type="text/javascript" src="{%base_url()%}static/js/iscroll.js"></script>
+<script type="text/javascript" src="{%base_url()%}static/js/index.js"></script>
+<script>
+
+    var myScroll, HEIGHT = window.innerHeight;
+
+    document.addEventListener('scroll', function (e) { e.preventDefault(); }, false);
+
+    function loaded () {
+        $('.page').css({
+            width : window.innerWidth,
+            height : window.innerHeight
+        }).show();
+
+        myScroll = new IScroll('#myScroll', {
+            mouseWheel: true,
+            tap: true,
+            keyBindings: {
+                pageUp: 33,
+                pageDown: 34
+            }
+        });
+
+        var currentY = 0;
+        var $pageList = $('.page-list-icon');    //page-list-icon
+        var $pageListLi = $('.page-list-icon li');   //page-list-icon li
+
+        //scrollEnd 事件
+        myScroll.on('scrollEnd', function() {
+            var y = Math.abs(this.y);
+
+            //隐藏/显示 page-list-icon
+            if(this.y % HEIGHT === 0) {
+                $pageList.show().css({'-webkit-animation':'fadein 2s', '-moz-animation':'fadein 2s', 'animation':'fadein 2s'});
+            }
+            else { $pageList.hide(); }
+
+            //page-list-icon 切换
+            if (y < HEIGHT) {
+                $pageListLi.removeClass('active');
+                $pageListLi.eq(0).addClass('active');
+
+            } else if (y >= HEIGHT && y < 2 * HEIGHT) {
+                $pageListLi.removeClass('active');
+                $pageListLi.eq(1).addClass('active');
+            } else if (y >= HEIGHT && y < 3 * HEIGHT) {
+                $pageListLi.removeClass('active');
+                $pageListLi.eq(2).addClass('active');
+            } else if (y >= 3 * HEIGHT) {
+                $pageListLi.removeClass('active');
+                $pageListLi.eq(3).addClass('active');
+            }
+
+            //根据scroll距离判断是否翻页
+            var moveDist = y - currentY;
+            if(Math.abs(moveDist) < 0.1 * HEIGHT) {
+                myScroll.scrollBy(0, moveDist, 200);
+            }
+            else if(moveDist > 0.1 * HEIGHT) {
+                myScroll.scrollBy(0, moveDist - HEIGHT, 300);
+            }
+            else if(moveDist < -0.1 * HEIGHT) {
+                myScroll.scrollBy(0, moveDist + HEIGHT, 300);
+            }
+            currentY = Math.abs(this.y);
+        });
+
+        //箭头控制滑动翻页
+        $(".up-pointer").on("tap", function() {
+            myScroll.scrollBy(0,HEIGHT,400);
+        });
+        $(".down-pointer").on("tap", function() {
+            myScroll.scrollBy(0,-HEIGHT,400);
+        });
+        $(".page-4-middle").on("tap", function(){
+            myScroll.scrollTo(0,0,400);
+            currentY = 0;
+        });
+
+        //page-list-icon点击控制滑动翻页
+        $pageListLi.on('click',function(e){
+            e = e || window.event;
+            var ele = e.target,
+                name = ele.attributes['name'].value,
+                count = parseInt(name.substring(4)) - 1;
+
+            myScroll.scrollTo(0, -count * HEIGHT, 400);
+            currentY = count * HEIGHT;
+            $pageListLi.removeClass('active');
+            $(ele).addClass('active');
+        });
+    }
+
+    $('input').focus(function(){
+        $('.error').text('');
+    })
+    //page-4 表单控制
+    var $name = $('input[name="name"]'),
+            $company = $('input[name="company"]'),
+            $mobile = $('input[name="mobile"]'),
+            $email = $('input[name="email"]');
+
+    $('#submitBtn').click(function(){
+        //获取值
+        var name = $name.val(), company = $company.val(),
+                mobile = $mobile.val(), email = $email.val();
+
+        //判断是否为空
+        if(!company || !name || !mobile || !email ){
+            $('.error').show();
+            $('.error').css({'color':'#f00'}).text('请完善您的留言信息');
+            return;
+        }else{
+            //成功后提示信息
+            $.ajax({
+                url : '{%base_url()%}index/insert',
+                type : 'post',
+                data : {
+                    corporate_name : company,
+                    contacts_name : name,
+                    phone : mobile,
+                    email : email
+                },
+                dataType : 'json',
+                success: function() {
+                    $('.error').css({'color':'#fff'}).text('留言成功，我们会尽快与您取得联系，谢谢！');
+                    $('input').val('');
+                    setTimeout(function(){
+                        $('.error').hide();
+                    },3000);
+                }
+            });
+        }
+    })
+
+
+</script>
+</body>
+
+</html>
